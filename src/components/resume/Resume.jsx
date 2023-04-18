@@ -27,14 +27,18 @@ function Resume() {
 				</Row>
 
 				<Row className="resume">
+                
 					<Card sx={{ maxWidth: 824 }}>
 						<CardMedia
+                        
 							className="cardmedia"
 							component="iframe"
 							Height="1056px"
-							src="https://drive.google.com/file/d/15Y4lfP1sfMijLjswQ4khOB3gQiJrUTiZ/view"
+							src="https://drive.google.com/file/d/15Y4lfP1sfMijLjswQ4khOB3gQiJrUTiZ/preview"
 						/>
+                        
 					</Card>
+                
 				</Row>
 
 			
