@@ -8,15 +8,16 @@ import Portfolio from "../components/portfolio/Portfolio";
 import Address from "../components/Address";
 import Social from "../components/Social";
 import Contact from "../components/Contact";
-import Blog from "../components/blog/Blog";
+import Resume from "../components/resume/Resume";
 import SwitchDark from "../components/switch/SwitchDark";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
+  { icon: "fa-file", menuName: "Resume" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  // { icon: "fa-comments", menuName: "Blog" },
+  
 ];
 
 const HomeDark = () => {
@@ -71,6 +72,31 @@ const HomeDark = () => {
               </div>
             </TabPanel>
             {/* About Content Ends */}
+            {/* Resume Content Starts */}
+            <TabPanel className="blog">
+              <div
+                className="title-section text-start text-sm-center "
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                <h1>
+                  my <span>resume</span>
+                </h1>
+                <span className="title-bg">history</span>
+              </div>
+              <div
+                className="container"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
+                {/*  Articles Starts  */}
+                <div className="row pb-50">
+                  <Resume />
+                </div>
+                {/* Articles Ends */}
+              </div>
+            </TabPanel>
+            {/* Resume Content Ends */}
 
             {/* Portfolio Content Starts */}
             <TabPanel className="portfolio professional">

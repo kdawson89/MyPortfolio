@@ -5,7 +5,7 @@ const personalInfoContent = [
   { meta: "last name", metaInfo: "Dawson", hasColor: "" },
   // { meta: "Age", metaInfo: "34 Years", hasColor: "" },
   // { meta: "Nationality", metaInfo: "Tunisian", hasColor: "" },
-  { meta: "Freelance", metaInfo: "Available", hasColor: "green" },
+  { meta: "Open For Hire", metaInfo: "Available", hasColor: "green" },
   // { meta: "Address", metaInfo: "Tunis", hasColor: "" },
   { meta: "phone", metaInfo: "402-670-1990", hasColor: "" },
   { meta: "Email", metaInfo: "KathrynDawson89@gmail.com", hasColor: "" },

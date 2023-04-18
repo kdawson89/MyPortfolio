@@ -2,25 +2,28 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: " April 2021  to Present",
+    position: "Lead Frontend Developer",
+    compnayName: "OneStaff Medical | Omaha, NE",
+    details: `Got Promoted to Lead Frontend Developer on a team of four`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: " April 2021  to Present",
+    position: "React | Full Stack | Frontend Developer",
+    compnayName: "OneStaff Medical | Omaha, NE",
+    details: `Interpret the needs of the company and its customers and create easy-to-use, interactive web apps. Front-end developers must be adept at both programming languages and design techniques`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "March 2020 – April 2021",
+    position: "Interactive UX/UI Website Developer",
+    compnayName: "Sandhills Global | Lincoln, NE ",
+    details: `Created websites small companies that focused on selling Semi Trucks, Farm Equipment, and Auction Houses `,
+  },
+  {
+    year: "September 2013 – March 2020",
+    position: "Operations Project Specialist",
+    compnayName: "Marriott Reservations Center  | Omaha, NE ",
+    details: `Internal marketing and maintaied internal logged in website for every Marriott Canter around the world`,
   },
 ];
 

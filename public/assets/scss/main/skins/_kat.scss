@@ -114,3 +114,17 @@ body.light.blog .page-link:hover,
 .c100.p100 .fill {
   border: 0.08em solid var(--main-primary-color);
 }
+
+
+
+.resBTN {
+  padding: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
