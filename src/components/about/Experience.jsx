@@ -38,8 +38,9 @@ const Experience = () => {
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
             {val.position}
-            <span className="place open-sans-font">{val.compnayName}</span>
-          </h5>
+            </h5>
+            <h5><span className="place open-sans-font">{val.compnayName}</span></h5>
+          
           <p className="open-sans-font">{val.details}</p>
         </li>
       ))}

@@ -27,13 +27,15 @@ const Education = () => {
       {educationContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
-            <i className="fa fa-briefcase"></i>
+            <i className="fa fa-graduation-cap"></i>
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
             {val.degree}
-            <span className="place open-sans-font">{val.institute}</span>
-          </h5>
+             </h5>
+             
+             <h5><span className="place open-sans-font">{val.institute}</span></h5>
+         
           <p className="open-sans-font">{val.details}</p>
         </li>
       ))}
