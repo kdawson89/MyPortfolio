@@ -2125,3 +2125,41 @@ button:focus {
   color: #2bc42b;
 }
 
+.KdImage{
+  background-image: url('../../../../public/assets/img/hero/KD.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  border-color: transparent;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.imageWrap {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+.KdImage{
+  background-image: none
+}
+}

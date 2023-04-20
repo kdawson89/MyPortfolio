@@ -10,6 +10,9 @@ import Social from "../components/Social";
 import Contact from "../components/Contact";
 import Resume from "../components/resume/Resume";
 import SwitchDark from "../components/switch/SwitchDark";
+import Image from 'next/image'
+
+
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -153,7 +156,9 @@ const HomeDark = () => {
 
                   {/*  Contact Form Starts  */}
                   <div className="col-12 col-lg-8">
-                    <Contact />
+                    {/* <Contact /> */}
+                    <div className="imageWrap"><div className="KdImage"/></div>
+                    
                   </div>
                   {/*  Contact Form Ends */}
                 </div>
