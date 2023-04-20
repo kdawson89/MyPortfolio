@@ -16,15 +16,15 @@ const ModalMain = ({ modalId, setGetModal }) => {
     );
   } else if (modalId === 2) {
     return (
-      <ModalTwo modalId={modalId} setGetModal={setGetModal}/>
+      <ModalOne modalId={modalId} setGetModal={setGetModal}/>
     );
   } else if (modalId === 3) {
     return (
-      <ModalThree modalId={modalId} setGetModal={setGetModal}/>
+      <ModalOne modalId={modalId} setGetModal={setGetModal}/>
     );
   } else if (modalId === 4) {
     return (
-      <ModalFour modalId={modalId} setGetModal={setGetModal}/>
+      <ModalOne modalId={modalId} setGetModal={setGetModal}/>
     );
   } else if (modalId === 5) {
     return (
@@ -46,7 +46,20 @@ const ModalMain = ({ modalId, setGetModal }) => {
     return (
       <ModalNine modalId={modalId} setGetModal={setGetModal}/>
     );
+  } else if (modalId === 10) {
+    return (
+      <ModalNine modalId={modalId} setGetModal={setGetModal}/>
+    );
+  } else if (modalId === 11) {
+    return (
+      <ModalNine modalId={modalId} setGetModal={setGetModal}/>
+    );
+  } else if (modalId === 12) {
+    return (
+      <ModalNine modalId={modalId} setGetModal={setGetModal}/>
+    );
   }
+  
 };
 
 export default ModalMain;

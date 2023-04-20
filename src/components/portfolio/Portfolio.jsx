@@ -19,10 +19,10 @@ const Portfolio = () => {
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
             <Tab>ALL</Tab>
-            <Tab>LOGO</Tab>
-            <Tab>VIDEO</Tab>
-            <Tab>GRAPHIC DESIGN</Tab>
-            <Tab>MOCKUP</Tab>
+            <Tab>OneSatff</Tab>
+            <Tab>Sandhills</Tab>
+            <Tab>Logo Design</Tab>
+            {/* <Tab>MOCKUP</Tab> */}
           </TabList>
 
           <div className="container">
@@ -54,7 +54,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("logo")).map(
+                {PortfolioData.filter((item) => item.tag.includes("OneStaff")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -82,7 +82,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("video")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Sandhills")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -111,7 +111,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("graphic design")
+                  item.tag.includes("Logo")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (
@@ -136,33 +136,7 @@ const Portfolio = () => {
               </div>
             </TabPanel>
 
-            <TabPanel>
-              <div className="tab-container">
-                {PortfolioData.filter((item) =>
-                  item.tag.includes("mockup")
-                ).map((item) => {
-                  const { id, type, image, delayAnimation } = item;
-                  return (
-                    <div
-                      key={id}
-                      data-aos="fade-right"
-                      data-aos-delay={delayAnimation}
-                    >
-                      <div
-                        className="tab-content"
-                        onClick={() => handleModal(id)}
-                      >
-                        <Image src={image} alt="portfolio project demo" />
-                        <h3>
-                          <span className="conent-title">{type}</span>
-                        </h3>
-                      </div>
-                      {/* {getModal && <Modal props={modalId} />} */}
-                    </div>
-                  );
-                })}
-              </div>
-            </TabPanel>
+        
           </div>
         </Tabs>
       </div>
