@@ -6,7 +6,7 @@ import Image5 from "../../../public/assets/img/portfolio/I40.jpg";
 import Image6 from "../../../public/assets/img/portfolio/Little.jpg";
 import Image7 from "../../../public/assets/img/portfolio/Packs.jpg";
 import Image8 from "../../../public/assets/img/portfolio/Stone.jpg";
-import Image9 from "../../../public/assets/img/portfolio/PElogo.jpg";
+import Image9 from "../../../public/assets/img/portfolio/parkinsons.jpg";
 import Image10 from "../../../public/assets/img/portfolio/Mischief.jpg";
 import Image11 from "../../../public/assets/img/portfolio/NandTh.jpg";
 import Image12 from "../../../public/assets/img/portfolio/teamOmaha.jpg";
