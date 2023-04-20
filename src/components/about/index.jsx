@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import heroImgMobile from "../../../public/assets/img/hero/300x300KD.png";
+import heroImgMobile from "../../../public/assets/img/hero/kdrg12300.png";
 import Image from "next/image";
 
 
